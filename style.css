@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Russo+One&display=swap');
+body{
+    font-family: 'Noto Serif', serif;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    margin: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    background: url("https://cdn.pixabay.com/photo/2018/04/13/17/12/vegetable-skewer-3317055_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px;
+}
+
+h1{
+    font-size: 6em;
+    letter-spacing: 10px;
+}
+
+h2{
+    font-size: 4em;
+}
+
+h3{
+    font-size: 2em;
+}
+
+h4{
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+section p, img{
+    padding: 10px;
+}
+
+.cartoons{
+    color: white;
+    padding: 70px;
+}
+
+#pizza{
+    background-color: rgb(247, 173, 34);
+}
+
+#chicken{
+    background-color: rgb(179, 57, 204);
+}
+
+#salad{
+    background-color: rgb(56, 169, 197);
+}
+
+img{
+    border: 5px solid white;
+}
+
+p{
+    font-style: italic;
+    margin: 0 20vw;
+}
